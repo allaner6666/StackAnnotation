@@ -34,8 +34,8 @@ public class MyStringStack {
      */
     public String pop() throws NoSuchElementException {
     	//throw new NoSuchElementException();
-    	String result = v.lastElement();
-    	v.remove(result);
+    	//String result = v.lastElement();
+    	//v.remove(result);
     	System.out.println("hello");
     	return result;
 
